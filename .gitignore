@@ -8,5 +8,5 @@ build
 .project
 .idea
 gradle/wrapper
-asciidoc
+asciidoc/*
 jupyter/*
