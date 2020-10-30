@@ -12,6 +12,7 @@
     "docs:asciidocs:build": "gradle asciidoctor",
     "docs:asciidocs:watch": "watch 'npm-run-all docs:asciidocs:build' ./src",
     "docs:asciidocs:local": "gradle livereload",
+    "docs:slide:start": "nf start -j ./slides/Procfile",
     "docs:slide:build": "marp ./slides/PITCHME.md -o slides/index.html",
     "docs:slide:deploy": "cpx './slide/PITCHME.md' ./",
     "docs:slide:proxy": "browser-sync start --config slides/bs-config.js",
