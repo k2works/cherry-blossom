@@ -20,7 +20,7 @@ help:
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 livehtml:
-	sphinx-autobuild -b html $(SOURCEDIR)/jupyter $(BUILDDIR)/ -H 0.0.0.0
+	sphinx-autobuild -b html $(SOURCEDIR)/jupyter $(BUILDDIR)/ --host 0.0.0.0
 
 gh-pages:
 	git checkout gh-pages

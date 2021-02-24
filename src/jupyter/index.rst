@@ -18,6 +18,7 @@ Welcome to ToyBox documentation!
    /sample/graph
    /sample/pandas
    /sample/qcstory
+   /sample/evaluation
 
 Indices and tables
 ==================
