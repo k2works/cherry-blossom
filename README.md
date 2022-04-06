@@ -8,9 +8,16 @@
 | ソフトウェア   | バージョン | 備考 |
 | :------------- | :--------- | :--- |
 | nodejs         | 10.16.3     |      |
+| gradle         | 6.2         |      |
+| graphviz       |             |      |
 
 
 ### Quick Start
+
+```
+$ npm install
+$ npm start
+```
 
 ## 構成
 
@@ -36,3 +43,4 @@
 **[⬆ back to top](#構成)**
 
 ## 参照
+- [VSCode で Asciidoc を使ってテキストデータでダイアグラムを組む](https://qiita.com/Anubis_369/items/04d26befab6e92cc55bb)
